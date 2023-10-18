@@ -1,4 +1,58 @@
 body{
     background-color: white;
     padding-top: 164px;
+    font-family: "Sora", "sans-serif";
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    padding: 16px 16px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+.title{
+    font-size: 1.125rem;
+    margin-bottom: 6px;
+    color: #20293A;
+    font-weight: 700;
+}
+
+.content{
+    width: 336px;
+}
+
+.text{
+    font-size: 0.875rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6C727F;
+    font-weight: 400;
+    color: #6C727F;
+}
+
+.annie{
+    padding-top: 20px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #6C727F;
+}
+
+.design{
+    margin: 16px 0;
+    font-size: 0.625rem;
+    color: #883AE1;
+    display: table;
+    border-radius: 20px;
+    padding: 6px 16px;
+    background-color: #E6D6FC;
+}
+
+img{
+    height: 152px;
+    object-fit: cover;
+    border-radius: 20px;
 }
